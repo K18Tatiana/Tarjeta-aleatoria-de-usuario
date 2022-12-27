@@ -1,4 +1,4 @@
-import { useState } from "react"
+
 const UserCard = ( {userData, randomColor} ) => {
     const { name, picture, email, phone, location } = userData
     document.body.style.backgroundColor = randomColor

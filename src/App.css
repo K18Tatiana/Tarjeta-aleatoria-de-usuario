@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.user-card {
+    margin: 70px auto 30px auto;
+    padding: 40px;
+    width: 400px;
+    height: 420px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    text-align: start;
+}
+
+ul i {
+    margin-right: 10px;
+}
+
+li {
+    margin-bottom: 13px;  
+}
